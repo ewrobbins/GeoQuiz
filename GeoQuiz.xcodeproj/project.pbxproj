@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84542C751D8FA70900999566 /* HOFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84542C731D8FA70900999566 /* HOFViewController.swift */; };
+		84542C761D8FA70900999566 /* HOFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84542C741D8FA70900999566 /* HOFViewController.xib */; };
+		84B1C7D91D920ACA0043098F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84B1C7D71D920AC90043098F /* Model.xcdatamodeld */; };
+		84EB09DF1D8F515700ADC031 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB09DE1D8F515700ADC031 /* LaunchViewController.swift */; };
+		DD20EE9A1D7B37D800009055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20EE991D7B37D800009055 /* AppDelegate.swift */; };
+		DD20EE9C1D7B37D800009055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20EE9B1D7B37D800009055 /* ViewController.swift */; };
+		DD20EE9F1D7B37D800009055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD20EE9D1D7B37D800009055 /* Main.storyboard */; };
+		DD20EEA11D7B37D800009055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD20EEA01D7B37D800009055 /* Assets.xcassets */; };
+		DD20EEB41D7B405C00009055 /* hongkonglong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD20EEB31D7B405C00009055 /* hongkonglong.jpg */; };
+		DD20EEB61D7B406400009055 /* sydneyoperahouselong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD20EEB51D7B406400009055 /* sydneyoperahouselong.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84542C731D8FA70900999566 /* HOFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HOFViewController.swift; sourceTree = "<group>"; };
+		84542C741D8FA70900999566 /* HOFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HOFViewController.xib; sourceTree = "<group>"; };
+		84B1C7D81D920ACA0043098F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		84EB09DE1D8F515700ADC031 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		DD20EE961D7B37D800009055 /* GeoQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD20EE991D7B37D800009055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD20EE9B1D7B37D800009055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD20EE9E1D7B37D800009055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD20EEA01D7B37D800009055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD20EEA51D7B37D800009055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD20EEB31D7B405C00009055 /* hongkonglong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hongkonglong.jpg; sourceTree = "<group>"; };
+		DD20EEB51D7B406400009055 /* sydneyoperahouselong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sydneyoperahouselong.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD20EE931D7B37D800009055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD20EE8D1D7B37D800009055 = {
+			isa = PBXGroup;
+			children = (
+				DD20EE981D7B37D800009055 /* GeoQuiz */,
+				DD20EE971D7B37D800009055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD20EE971D7B37D800009055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD20EE961D7B37D800009055 /* GeoQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD20EE981D7B37D800009055 /* GeoQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				DD20EEB51D7B406400009055 /* sydneyoperahouselong.jpg */,
+				DD20EEB31D7B405C00009055 /* hongkonglong.jpg */,
+				DD20EE991D7B37D800009055 /* AppDelegate.swift */,
+				84B1C7D71D920AC90043098F /* Model.xcdatamodeld */,
+				DD20EE9B1D7B37D800009055 /* ViewController.swift */,
+				DD20EE9D1D7B37D800009055 /* Main.storyboard */,
+				DD20EEA01D7B37D800009055 /* Assets.xcassets */,
+				DD20EEA51D7B37D800009055 /* Info.plist */,
+				84EB09DE1D8F515700ADC031 /* LaunchViewController.swift */,
+				84542C731D8FA70900999566 /* HOFViewController.swift */,
+				84542C741D8FA70900999566 /* HOFViewController.xib */,
+			);
+			path = GeoQuiz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD20EE951D7B37D800009055 /* GeoQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD20EEA81D7B37D800009055 /* Build configuration list for PBXNativeTarget "GeoQuiz" */;
+			buildPhases = (
+				DD20EE921D7B37D800009055 /* Sources */,
+				DD20EE931D7B37D800009055 /* Frameworks */,
+				DD20EE941D7B37D800009055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoQuiz;
+			productName = GeoQuiz;
+			productReference = DD20EE961D7B37D800009055 /* GeoQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD20EE8E1D7B37D800009055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Eric Robbins";
+				TargetAttributes = {
+					DD20EE951D7B37D800009055 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DD20EE911D7B37D800009055 /* Build configuration list for PBXProject "GeoQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD20EE8D1D7B37D800009055;
+			productRefGroup = DD20EE971D7B37D800009055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD20EE951D7B37D800009055 /* GeoQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD20EE941D7B37D800009055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84542C761D8FA70900999566 /* HOFViewController.xib in Resources */,
+				DD20EEA11D7B37D800009055 /* Assets.xcassets in Resources */,
+				DD20EEB41D7B405C00009055 /* hongkonglong.jpg in Resources */,
+				DD20EE9F1D7B37D800009055 /* Main.storyboard in Resources */,
+				DD20EEB61D7B406400009055 /* sydneyoperahouselong.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD20EE921D7B37D800009055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD20EE9C1D7B37D800009055 /* ViewController.swift in Sources */,
+				84EB09DF1D8F515700ADC031 /* LaunchViewController.swift in Sources */,
+				84B1C7D91D920ACA0043098F /* Model.xcdatamodeld in Sources */,
+				84542C751D8FA70900999566 /* HOFViewController.swift in Sources */,
+				DD20EE9A1D7B37D800009055 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD20EE9D1D7B37D800009055 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD20EE9E1D7B37D800009055 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD20EEA61D7B37D800009055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD20EEA71D7B37D800009055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD20EEA91D7B37D800009055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = erobbin.GeoQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD20EEAA1D7B37D800009055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = erobbin.GeoQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD20EE911D7B37D800009055 /* Build configuration list for PBXProject "GeoQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD20EEA61D7B37D800009055 /* Debug */,
+				DD20EEA71D7B37D800009055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD20EEA81D7B37D800009055 /* Build configuration list for PBXNativeTarget "GeoQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD20EEA91D7B37D800009055 /* Debug */,
+				DD20EEAA1D7B37D800009055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84B1C7D71D920AC90043098F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84B1C7D81D920ACA0043098F /* Model.xcdatamodel */,
+			);
+			currentVersion = 84B1C7D81D920ACA0043098F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD20EE8E1D7B37D800009055 /* Project object */;
+}
